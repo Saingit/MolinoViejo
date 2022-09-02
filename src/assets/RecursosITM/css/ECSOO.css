@@ -1,0 +1,114 @@
+html {
+	font-size: 16px;
+}
+
+.inputs{
+	width: 50px;
+}
+
+.bg-carousel{
+ background-color: rgba(255, 255, 255, 0.6);
+}
+
+.bgnav{
+	/* background-color: #006739; */
+	transition: all ease .5s;
+
+		background-image: linear-gradient(rgba(0,103,57,1), rgba(0,0,0,0.05));
+
+	
+}
+.bgnav .nav-item:hover{
+	background-color: #fe9205;
+	border-radius: 5px;
+	
+}
+
+.bg-footer{
+	background-color: #006739;
+
+}
+
+.nav-link{
+	color:#FFF !important;
+	font-weight: bold;
+}
+
+.nav-link .active{
+	background-color: #fe9205 !important;
+}
+
+.bghojas{
+	background-image: url("../../../../public/recursos/img/hojas5.png");
+	background-position: center center;
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+	background-size: 100%
+}
+
+
+/*Inicio Tipografia */
+h1 {
+	font-family: 'Rubik-Bold';
+	color: #333;
+	font-size: 5.75rem !important;
+} /*equivalente en px=92*/
+h2 {
+	font-family: 'Rubik-Bold';
+	color: #333;
+	font-size: 4.375rem !important;
+} /*equivalente en px=70*/
+h3 {
+	font-family: 'Rubik-Bold';
+	color: #333;
+	font-size: 3.75rem !important;
+} /*equivalente en px=60*/
+h4 {
+	font-family: 'Rubik-Medium';
+	color: #333;
+	font-size: 3rem !important;
+} /*equivalente en px=48*/
+h5 {
+	font-family: 'Rubik-Regular';
+	color: #333;
+	font-size: 2.25rem !important;
+} /*equivalente en px=30*/
+h6 {
+	font-family: 'Rubik-Regular';
+	color: #333;
+	font-size: 1.75rem !important;
+} /*equivalente en px=28*/
+p {
+	font-family: 'Rubik-Regular';
+	color: #333;
+	font-size: 1.25rem !important;
+} /*equivalente en px=20*/
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	h1 {
+		font-size: 1.75rem !important;
+	}
+	h2 {
+		font-size: 1.625rem !important;
+	}
+	h3 {
+		font-size: 1.5rem !important;
+	}
+	h4 {
+		font-size: 1.125rem !important;
+	}
+	h5 {
+		font-size: 0.875rem !important;
+	}
+	h6 {
+		font-size: 0.843rem !important;
+	}
+	p {
+		font-size: 0.813rem !important;
+	}
+	.tal {
+		font-size: 1.25rem !important;
+		font-weight: bold;
+	}
+}
