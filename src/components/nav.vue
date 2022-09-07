@@ -1,50 +1,29 @@
 <template>
-  <b-row align-h="center" >
-    
-    <b-col cols="12" lg="8" >
-      <img
-              src="recursos/img/hojas3.png"
-              class="img-fluid w-25 position-absolute"
-              alt=""
-            />
-      <b-navbar fixed="top" toggleable="lg" class="bgnav text-center shadow">
-        <b-row class="">
-          <b-col cols="12">
-            <router-link to="/">
-                <img
-              src="recursos/img/logo.jpeg"
-              class="img-fluid w-25 rounded border shadow"
-              alt="Logo"
-            />
-            </router-link>    
-          </b-col>
-          <div class="col-12 col-lg-10">
-          </div>
-        </b-row>
-        
-        <div class="pr-lg-5">
-          <b-nav>
-            <b-nav-item active>
-              <router-link to="/" class="text-white">Inicio</router-link>
-            </b-nav-item>
-            <!-- <b-nav-item>
-              <router-link to="/Planes" class="text-white">Planes</router-link>
-            </b-nav-item>
-            <b-nav-item>
-              <router-link to="/Quienes" class="text-white"
-                >Quienes somos</router-link
-              >
-            </b-nav-item> -->
-          </b-nav>
-        </div>
-        <p class="text-white text-right"><small>Llámanos (604) 5579961, 315 331 48 20 - 315 381 49 65</small></p>
-        <p class="text-white ml-5">
-          +RNT - 50567
-        </p>
-      </b-navbar>
-    
-    </b-col>
-  </b-row>
+  <b-container fluid class="mt-0 p-0 ">
+    <b-row class="m-0 p-0 ">
+      <b-col cols="12">
+        <b-navbar fixed="top" toggleable="lg" class="bgnav borderbottomnav text-center shadow m-0 p-0">
+          <b-row class="">
+            <b-col cols="12" lg="2">
+                <img src="recursos/img/logo.jpeg" class="img-fluid w-25 rounded border shadow mt-1 "
+                  alt="Logo" />
+            </b-col>
+            <b-col cols="12" lg="9" class="text-center">
+              <p class="text-white text-center py-3 ">Llámanos <i class="fa fa-phone"></i> (604) 5579961 - 315 331 48 20 - 315 381 49 65 +RNT -
+                  50567 <a href="https://www.instagram.com/molinoviejo.centrorecreativo/" target="_blank" rel="noopener noreferrer" class="p-3"> <i class="fa fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/molinoviejocentrorecreativo" target="_blank" rel="noopener noreferrer" class="p-3"> <i class="fa fa-facebook"></i></a></p>
+             
+            </b-col>
+            <b-col cols="12" lg="1" class="">
+              
+              <img src="recursos/img/hojas6.png" class="img-fluid" alt="Logo" />
+                       
+            </b-col>
+          </b-row>
+        </b-navbar>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>

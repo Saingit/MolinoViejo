@@ -1,3 +1,5 @@
+@import url('../../RecursosITM/font-awesome-4.7.0/css/font-awesome.min.css');
+
 html {
 	font-size: 16px;
 }
@@ -11,13 +13,15 @@ html {
 }
 
 .bgnav{
-	/* background-color: #006739; */
-	transition: all ease .5s;
-
-		background-image: linear-gradient(rgba(0,103,57,1), rgba(0,0,0,0.05));
-
+	 background-color: #006739;
 	
+
 }
+
+.imglogo{
+	border: 15px solid #f7f7f7;
+}
+	
 .bgnav .nav-item:hover{
 	background-color: #fe9205;
 	border-radius: 5px;
@@ -112,3 +116,25 @@ p {
 		font-weight: bold;
 	}
 }
+
+.borderbottomnav{
+	border-bottom: solid 5px #fff;
+	box-shadow:-1px -1px 6px black; 
+
+}
+
+/*Iconos*/
+.fa-phone{
+  font-size: 2rem !important;
+  color: #fff !important;
+}
+
+.fa-instagram{
+	font-size: 2rem !important;
+	color: #fff !important;
+}
+.fa-facebook{
+	font-size: 2rem !important;
+	color: #fff !important;
+}
+/*Iconos*/
