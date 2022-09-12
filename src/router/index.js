@@ -10,28 +10,7 @@ const routes = [
     name: 'Home',
     component: () => import( /* webpackChunkName: "Home" */'../views/Home.vue'),
     meta: { title: 'Molino Viejo' }
-  }, 
-
-  //Menu Módulo 1
-  //Menu Módulo 1
-  {
-    path: '/Planes',
-    name: 'Planes',
-    component: () => import( /* webpackChunkName: "11" */'../views/Planes.vue'),
-    meta: { title: 'Planes - Molino Viejo' }
-  },
-
-  {
-    path: '/Quienes',
-    name: 'Quienes',
-    component: () => import(/* webpackChunkName: "12" */'../views/Quienes.vue'),
-    meta: { title: 'Quienes Somos - Molino Viejo' }
-  },
-
-  
-  
-
-
+  }
   //Menu Módulo 1
   //Menu Módulo 1  
   
