@@ -24,6 +24,32 @@ export function SwiperController() {
 
 
     $(function () {
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'vertical',
+            loop: true,
+          
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+            },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          
+            // And if we need scrollbar
+            scrollbar: {
+              el: '.swiper-scrollbar',
+            },
+          });
+          
+
+
+
+
         //localStorage.clear();
         // Vista Dinamica Tema 1: Slide 9
         $(".overimg").click(function () {
@@ -32,33 +58,33 @@ export function SwiperController() {
             $(this).addClass("btn-activado");
         });
 
-        $("#text_pagination").html("");
-        //initialize swiper when document ready
-        var mySwiper = new Swiper(".swiper-container", {
-            // Optional parameters
-            direction: "horizontal",
-            initialSlide: 0,
-            speed: 400,
-            loop: false,
-            spaceBetween: 100,
-            setWrapperSize: true,
-            paginationType: "progress",
-            roundLengths: false,
-            preloadImages: true,
-            updateOnImagesReady: true,
-            preventClicks: true,
-            noSwiping: true,
-            noSwipingClass: "swiper-no-swiping",
-            navigation: {
-                nextEl: ".siguienteSw",
-                prevEl: ".anteriorSw"
-            },
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
+        // $("#text_pagination").html("");
+        // //initialize swiper when document ready
+        // var mySwiper = new Swiper(".swiper-container", {
+        //     // Optional parameters
+        //     direction: "horizontal",
+        //     initialSlide: 0,
+        //     speed: 400,
+        //     loop: false,
+        //     spaceBetween: 100,
+        //     setWrapperSize: true,
+        //     paginationType: "progress",
+        //     roundLengths: false,
+        //     preloadImages: true,
+        //     updateOnImagesReady: true,
+        //     preventClicks: true,
+        //     noSwiping: true,
+        //     noSwipingClass: "swiper-no-swiping",
+        //     navigation: {
+        //         nextEl: ".siguienteSw",
+        //         prevEl: ".anteriorSw"
+        //     },
+        //     scrollbar: {
+        //         el: '.swiper-scrollbar',
+        //     },
 
 
-        });
+        // });
 
         objSwiper = mySwiper;
         mySwiper.keyboard.enable();

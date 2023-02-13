@@ -6,11 +6,13 @@
           img-width="1920" img-height="600" style="text-shadow: 1px 1px 2px #333" @sliding-start="onSlideStart"
           @sliding-end="onSlideEnd">
           <!-- Text slides with image -->
-          <b-carousel-slide img-src="recursos/img/Amplias Zonas de Camping.png"></b-carousel-slide>
+          
 
           <!-- Slides with custom text -->
-          <b-carousel-slide img-src="recursos/img/Zonas Humedas.png"></b-carousel-slide>
-          <b-carousel-slide img-src="recursos/img/ZonaEco.png">
+          <b-carousel-slide img-src="recursos/img/Zonas.jpg"></b-carousel-slide>
+          <b-carousel-slide img-src="recursos/img/ZonaCabañas.jpg"></b-carousel-slide>
+          <b-carousel-slide img-src="recursos/img/ZonasEco.jpg"></b-carousel-slide>
+          <b-carousel-slide img-src="recursos/img/ZonasCampi.jpg">
           </b-carousel-slide>
 
           <!-- Slides with image only -->
@@ -31,16 +33,14 @@
       </b-col>
       
     </b-row>
+
     <b-row class="justify-content-center p-1">
       
       <b-col cols="12" lg="8" class="text-center p-0 m-0">
         <iframe width="100%" height="399" src="https://www.youtube.com/embed/taoC6EDUNAE" title="Molino Viejo Centro Recreativo Hosteria" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       </b-col>
-      <b-col cols="12" lg="4" class="text-center p-0 m-0">
-        <iframe width="100%" height="399" src="https://www.youtube.com/embed/aRWZjd7FhKI" title="Molino Viejo Una Experiencia Única" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-      </b-col>
+      
       
     </b-row>
 
@@ -241,10 +241,15 @@
   </b-container>
 </template>
 
+
+
 <script>
+
 export default {
+ 
   mounted() {
     document.title = "Molino Viejo - Centro Recreativo"
-  }
+  },
+ 
 };
 </script>
