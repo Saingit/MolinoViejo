@@ -42,13 +42,7 @@ html {
 	background-color: #fe9205 !important;
 }
 
-.bghojas{
-	background-image: url("../../../../public/recursos/img/hojas5.png");
-	background-position: center center;
-	background-attachment: fixed; 
-	background-repeat: no-repeat;
-	background-size: 100%
-}
+
 
 
 /*Inicio Tipografia */
@@ -122,6 +116,8 @@ p {
 	box-shadow:-1px -1px 6px black; 
 
 }
+
+
 
 /*Iconos*/
 .fa-phone{

@@ -21,20 +21,27 @@
         </b-carousel>
       </b-col>
     </b-row>
-    <b-row class="justify-content-center">
-      <b-col lg="3" class=""><img src="recursos/img/hojas3.png" class="img-fluid mt-n5" alt="Hojas" />
-      </b-col>
-      <b-col cols="12" lg="6" class="text-center p-5">
-
-        <iframe width="100%" height="399" src="https://www.youtube.com/embed/_RCqT7XDEE4"
-          title="CENTRO RECREATIVO MOLINO VIEJO" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+    <b-row class="justify-content-center p-3">
+      
+      <b-col cols="12" lg="12" class="text-center">
+        <h3 class="text-danger">Horarios de Atención</h3>
+        <p>Lunes a sabado 8:00 a.m. - 5:00 p.m. en todos nuestros canales Whatsapp, Facebook, Instagram y Celular.</p>
+        <p>Domingos y festivos solo tendremos atención de manera presencial</p>
 
       </b-col>
-      <b-col lg="3" class="">
-        <img src="recursos/img/hojas4.png" class="img-fluid mt-n5" alt="Hojas" />
+      
+    </b-row>
+    <b-row class="justify-content-center p-1">
+      
+      <b-col cols="12" lg="8" class="text-center p-0 m-0">
+        <iframe width="100%" height="399" src="https://www.youtube.com/embed/taoC6EDUNAE" title="Molino Viejo Centro Recreativo Hosteria" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
       </b-col>
+      <b-col cols="12" lg="4" class="text-center p-0 m-0">
+        <iframe width="100%" height="399" src="https://www.youtube.com/embed/aRWZjd7FhKI" title="Molino Viejo Una Experiencia Única" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </b-col>
+      
     </b-row>
 
     <div class="row row-cols-1 row-cols-md-2 p-5">
@@ -47,11 +54,11 @@
           <div class="card-body">
             <h5 class="card-title text-center">DÍA DE SOL</h5>
             <p class="card-text">
-              <strong>$ 60.000</strong> por persona le incluye desayuno almuerzo y refrigerio,
+              <strong>$ 65.000</strong> por persona le incluye desayuno almuerzo y refrigerio,
               ingreso a la piscina. Nota: No se permite el ingreso de mascotas a
               la piscina y zona de comidas. <br>
 
-              <strong>Con habitación: $170.000</strong>
+              <strong>Con Cabaña: $180.000</strong>
             </p>
           </div>
         </div>
@@ -62,8 +69,8 @@
           <div class="card-body">
             <h5 class="card-title text-center">CAMPING</h5>
             <p class="card-text">
-              <strong>$ 25.000</strong> sin alimentación por persona <br />
-              <strong>$ 65.000</strong> con alimentación por persona le incluye desayuno almuerzo
+              <strong>$ 30.000</strong> sin alimentación por persona <br />
+              <strong>$ 70.000</strong> con alimentación por persona le incluye desayuno almuerzo
               y cena. <br />
               <strong> Nota:</strong> En los 2 planes deben de traer las carpas
             </p>
@@ -76,8 +83,8 @@
           <div class="card-body">
             <h5 class="card-title text-center">ALOJAMIENTO</h5>
             <p class="card-text">
-              <strong>$ 145.000 </strong> por persona con alimentación, niños menores de 5 años son
-              gratis sin alimentación y niños de 6 años hasta los 8 años <strong>$ 50.000</strong> ,
+              <strong>$ 155.000 </strong> por persona con alimentación, niños menores de 5 años son
+              gratis sin alimentación y niños de 6 años hasta los 8 años <strong>$ 55.000</strong> ,
               sin alimentación solo alojamiento
             </p>
           </div>
@@ -92,7 +99,7 @@
           <div class="card-body">
             <h5 class="card-title text-center">PLAN ROMÁNTICO</h5>
             <p class="card-text">
-              <strong>$ 360.000</strong> por pareja
+              <strong>$ 370.000</strong> por pareja
             </p>
           </div>
         </div>
@@ -103,7 +110,7 @@
           <div class="card-body">
             <h5 class="card-title text-center">CUMPLEAÑOS</h5>
             <p class="card-text">
-              <strong>$ 360.000</strong> por pareja
+              <strong>$ 370.000</strong> por pareja
             </p>
           </div>
         </div>
@@ -117,7 +124,7 @@
             <p>
               - El ingreso a la piscina es de <strong>$:15000</strong> por persona, solo los niños
               menores de 5 años son gratis <br />
-              - El ingreso a los charcos y zonas verdes es de <strong>$:7000</strong> por persona,
+              - El ingreso a los charcos y zonas verdes es de <strong>$: 8000</strong> por persona,
               solo los niños menores de 5 años son gratis
             </p>
           </div>
@@ -126,7 +133,7 @@
     </div>
 
     <b-row class="justify-content-center pb-5">
-      <b-col cols="12" class="text-center "><img src="../../public/recursos/img/ZonaPet.png" alt="" class="img-fluid"></b-col>
+      <b-col cols="12" class="text-center "><img src="recursos/img/ZonaPet.png" alt="" class="img-fluid"></b-col>
     </b-row>
 
     <b-row class="justify-content-center bghojas">
@@ -163,7 +170,7 @@
       <img src="recursos/img/bg-footer-img.png" class="w-100 mt-n4" alt="">
       <b-row>
       <b-col>
-        <img src="../../public/recursos/img/Molino.png" class="img-fluid" alt="">
+        <img src="recursos/img/Molino.png" class="img-fluid" alt="">
       </b-col>
     </b-row>
       <b-col cols="12" lg="6" class="m-0 p-0">
@@ -198,19 +205,8 @@
                 <strong>+RNT - 50567</strong> <br />
                 Barbosa - Antioquia
               </h5>
-            </b-col>
-          </b-row>
-        </footer>
-      </b-col>
-      <b-col col="12" lg="3" align-self="center" class="text-center">
-        <a href="https://goo.gl/maps/YK3H3rFFPNXpQYTy8" target="_blank">
-          <img src="recursos/img/img-mapa-foo.jpg" class="img-fluid rounded" alt="Logo" />
-        </a>
-        <p class="text-white">HAZ CLICK AQUÍ Y UBÍCANOS</p>
-      </b-col>
-      <b-col col="12" lg="3" align-self="center" class="text-center">
-        <div class="row justify-content-center align-items-center border1 rounded p-3">
-          <div class="col-12 col-lg-2">
+              <div class="row justify-content-center align-items-center border1 rounded p-3">
+          <div class="col-12 col-lg-12">
             <a href="https://www.instagram.com/molinoviejo.centrorecreativo/" target="_blank" class="m-2 p-2">
               <i class="fa fa-instagram"></i>
             </a>
@@ -222,6 +218,23 @@
         </div>
 
         <p class="text-white">VISITA TAMBIÉN NUESTRAS REDES SOCIALES</p>
+            </b-col>
+          </b-row>
+        </footer>
+      </b-col>
+      <b-col col="12" lg="3" align-self="center" class="text-center">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/4ijWHkXRNao" title="¿Cómo llegar a Molino Viejo?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       
+      </b-col>
+      <b-col col="12" lg="3" align-self="center" class="text-center">
+        <a href="https://goo.gl/maps/YK3H3rFFPNXpQYTy8" target="_blank">
+          <img src="recursos/img/img-mapa-foo.jpg" class="img-fluid rounded" alt="Logo" />
+        </a>
+        <p class="text-white">HAZ CLICK AQUÍ Y UBÍCANOS</p>
+      </b-col>
+     
+      <b-col col="12" lg="3" align-self="center" class="text-center">
+        
       </b-col>
     </b-row>
     
